@@ -7,7 +7,6 @@ import mongoose from 'mongoose';
 import router from './routers';
 import bodyParser from 'body-parser';
 import path from 'path';
-import expressLayouts from 'express-ejs-layouts';
 config();
 const env = process.env
 const CONNECT_DB: string = String(env.URL_MONGOOSEDB)
